@@ -2,11 +2,10 @@
  方言翻訳機のうち公開可能な部分
 
 ## 使用上の注意
-参考リポジトリの方言パッチとしてのご利用を推奨します。
-参考元から以下の3ファイルをダウンロードし、リポジトリのROOTフォルダに置いてください。
-+ model.py
-+ preprocess_utils.py
-+ weight_utils.py
+方言コーパスの指定があります。ただしフォーマットを規定通りに揃えれば、あらゆる方言コーパスに適用できるはずです。
+
+また、コーパスに記載されているガイドラインに従ったうえでのご利用をお願い致します。
+
 
 ## フォルダ構成
 
@@ -26,6 +25,7 @@ CSVを読み込み、特定の列のカタカナをひらがなに変換しま�
 
 ## 参考リポジトリ
 [kawasaki-kento/Transformer](https://github.com/kawasaki-kento/Transformer)
+[sonoisa/t5-japanese: 日本語T5モデル](https://github.com/sonoisa/t5-japanese)
 
 ### 翻訳結果の一例
 ![翻訳結果だよ](./_OLD/output11.png "翻訳結果だよ")
